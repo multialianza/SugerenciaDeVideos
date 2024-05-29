@@ -1,0 +1,29 @@
+:root {
+    --blackJS: #323330;
+    --yellowJS: #dff39f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth scroll;
+}
+
+body {
+    background-color: var(--yellowJS);
+    color: var(--blackJS);
+}
+
+#music, #btn-music, #movie, #btn-movie, #serie, #btn-serie {
+    background-color: var(--blackJS);
+    color: var(--yellowJS);
+    border-color: var(--blackJS);
+}
+
+img {
+    width: 10%;
+}
+
